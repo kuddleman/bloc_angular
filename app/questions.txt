@@ -1,0 +1,6 @@
+3/23
+
+checkpoint 3
+How do I complete the 3rd part of the assignment?
+
+Update links in the navigation and throughout the templates with routing based on ui-sref instead of href.
