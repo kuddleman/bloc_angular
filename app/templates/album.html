@@ -10,7 +10,16 @@
 		</div>
 	</section>
 	<table class="album-view-song-list">
-		<tr class="album-view-song-item" ng-mouseover="hovered = true" ng-mouseleave="hovered = false">
+	
+	<tr class="album-view-song-item" ng-repeat="album in collection.albums" ng-mouseover="hovered = true" ng-mouseleave="hovered = false">
+		<td class="album-name" ui-sref="album">{{ album.title }}</td>
+		<td class="album-name" ui-sref="album">{{ album.number }}</td>
+		<td class="album-name" ui-sref="album">{{ album.art }}</td>
+		<td class="album-name" ui-sref="album">{{ album.artist }}</td>
+		<td class="album-name" ui-sref="album">{{ album.year }}</td>
+	</tr>
+	
+		<tr class="album-view-song-item" ng-repeat="album in collection.albums" ng-mouseover="hovered = true" ng-mouseleave="hovered = false">
 
 			<td class="song-item-number">
 				<span ng-show="!playing && !hovered">1</span>
