@@ -32,10 +32,11 @@ var albumMarconi = {
         { title: 'Wrong phone number', duration: '2:15'}
     ]
 };
+		 //start of public method
 		 Fixtures.getAlbum = function() {
          return albumPicasso;
      };
-		 
+	    //end of public method	 
 		 
          return Fixtures;
      }
@@ -44,3 +45,4 @@ var albumMarconi = {
          .module('blocJams')
          .factory('Fixtures', Fixtures);
  })();
+
