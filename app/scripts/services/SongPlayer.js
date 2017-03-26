@@ -43,6 +43,17 @@
 			};
 		}
 	};
+ 
+ //my private playSong function
+ /**
+ * @function playSong
+ * @plays current song 
+ * @param {Object} song
+ */
+    var playSong = function (song) {
+				currentBuzzObject.play();
+	            song.playing = true;
+				};  
 
 	return SongPlayer;
 }
