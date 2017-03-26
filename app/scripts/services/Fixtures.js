@@ -39,6 +39,12 @@ var albumMarconi = {
 	    //end of public method	 
 		 
          return Fixtures;
+		 
+		 //start of public method
+		 Fixtures.getAlbum = function(numberOfAlbums) {
+         return albumPicasso;
+     };
+	    //end of public method	
      }
  
      angular
