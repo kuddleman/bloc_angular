@@ -58,3 +58,4 @@
 		.module('blocJams')
 		.directive('seekBar', ['$document', seekBar]);
 })();
+Contact GitHub API Training Shop Blog About
