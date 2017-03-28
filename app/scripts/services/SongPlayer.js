@@ -128,7 +128,16 @@
 					currentBuzzObject.setTime(time);
 				}
 			};
-
+/**
+			 * @function volume control
+			 * @desc Set volume control of currently playing song
+			 * @param {Number} setVolume
+			 */
+			SongPlayer.volume = function (setVolume) {
+				if (currentBuzzObject) {
+					currentBuzzObject.volume(setVolume);
+				}
+			};
 
 		}
 	};
